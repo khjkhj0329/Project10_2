@@ -5,7 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="15dp"
     tools:context=".ResultActivity">
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="최다투표 이미지"/>
+    <ImageView
+        android:id="@+id/imgv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/mak1"
+        android:layout_gravity="center_horizontal"/>
 
     <TableLayout
         android:stretchColumns="0"
@@ -32,7 +45,8 @@
     <TableLayout
         android:stretchColumns="0"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
         <TableRow
             android:layout_marginTop="15dp">
             <TextView
@@ -53,7 +67,8 @@
     <TableLayout
         android:stretchColumns="0"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
         <TableRow
             android:layout_marginTop="15dp">
             <TextView
@@ -74,7 +89,8 @@
     <TableLayout
         android:stretchColumns="0"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
         <TableRow
             android:layout_marginTop="15dp">
             <TextView
@@ -95,7 +111,8 @@
     <TableLayout
         android:stretchColumns="0"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
         <TableRow
             android:layout_marginTop="15dp">
             <TextView
@@ -116,7 +133,8 @@
     <TableLayout
         android:stretchColumns="0"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
         <TableRow
             android:layout_marginTop="15dp">
             <TextView
@@ -137,7 +155,8 @@
     <TableLayout
         android:stretchColumns="0"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
         <TableRow
             android:layout_marginTop="15dp">
             <TextView
@@ -158,7 +177,8 @@
     <TableLayout
         android:stretchColumns="0"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
         <TableRow
             android:layout_marginTop="15dp">
             <TextView
@@ -179,7 +199,8 @@
     <TableLayout
         android:stretchColumns="0"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
         <TableRow
             android:layout_marginTop="15dp">
             <TextView
